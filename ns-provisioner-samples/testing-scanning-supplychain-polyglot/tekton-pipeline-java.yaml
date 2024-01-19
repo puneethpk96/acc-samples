@@ -30,7 +30,7 @@ spec:
           - name: source-revision
         steps:
           - name: test
-            image: gradle
+            image: harbor.tkgm.cloud.vmw/library/gradle
             script: |-
               cd `mktemp -d`
               wget -qO- $(params.source-url) | tar xvz -m
