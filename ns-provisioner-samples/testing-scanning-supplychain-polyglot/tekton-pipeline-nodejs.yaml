@@ -30,7 +30,7 @@ spec:
           - name: source-revision
         steps:
           - name: test
-            image: harbor.tkgm.cloud.vmw/library/nodejs
+            image: tanzuapps.azurecr.io/images/nodejs
             script: |-
               echo "Test DOne"
               # cd `mktemp -d`
