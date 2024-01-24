@@ -30,7 +30,7 @@ spec:
           - name: source-revision
         steps:
           - name: test
-            image: tanzuapps.azurecr.io/images/nodejs
+            image: quay.io/puneethpk96/tap-images:nodejs
             script: |-
               echo "Test DOne"
               # cd `mktemp -d`
